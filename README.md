@@ -14,9 +14,7 @@
 想象一下，您正在编写应用程序，并且您希望在用户选择用户名时设置规则。我们希望用户名可以包含字母，数字，下划线和连字符。
 为了让它看起来不丑，我们还想限制用户名中的字符数量。我们可以使用以下正则表达式来验证用户名:
 
-<p align="center">
-<img src="https://i.imgur.com/UrDb9qc.png" alt="Regular expression">
-</p>
+![图片1](https://i.imgur.com/UrDb9qc.png)
 
 上面这个正则表达式可以匹配 `john_doe`，`jo-hn\_doe` 和 `john12\_as`。但是它不能匹配 `Jo`，因为该字符串里面包含了大写字符，并且它太短了。
 
